@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 
 
@@ -99,10 +99,10 @@ body {
     border: none;
     position: relative;
     left: 45%;
-  
+
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
     background-color: royalblue;
 }
 
@@ -111,10 +111,10 @@ body {
 /*-------------------------
  banner images 
  ---------------------------- */
-.architect-author-img img{
-    width: 80%;
+.architect-author-img img {
+    width: 70%;
     position: relative;
-    left: 10%;
+    left: 15%;
     margin-top: 50px;
 
 }
@@ -122,10 +122,9 @@ body {
 
 
 
-             /* -----------------------------
+/* -----------------------------
              quick list of our feature
              ------------------------------ */
-      
 
 
 
@@ -138,7 +137,40 @@ body {
 
 
 
-       /* -----------------------------
+
+/* -----------------------------
              quick list of our feature
-             ------------------------------ */
-      
+             ------------------------------*/
+
+.product-section{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.product-design-container {
+    width: 80%;
+    display: flex;
+    border: 2px solid red;
+    position: relative;
+    left: 9%;
+    padding: 25px;
+    
+}
+
+.product-main-title {
+    font-weight: 700;
+    font-size: 45px;
+
+
+
+}
+
+
+
+.product-info {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    bottom: 10px;
+}
