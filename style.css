@@ -92,9 +92,9 @@ body {
 .primary-btn {
     background-color: var(--golden-color);
     border-radius: 8px;
-    padding: 20px 25px;
+    padding: 10px 18px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     color: #FFFFFF;
     border: none;
     position: relative;
@@ -140,26 +140,38 @@ body {
 
 /* -----------------------------
              quick list of our feature
-             ------------------------------*/
+ ------------------------------*/
 
-.product-section{
+
+
+
+/* -------------------------------
+             product feture 
+--------------------------------- */
+
+.product-section {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 130px;
 }
+
+
+
 
 .product-design-container {
     width: 80%;
     display: flex;
-    border: 2px solid red;
     position: relative;
     left: 9%;
     padding: 25px;
-    
+
 }
+
+.products-design {}
 
 .product-main-title {
     font-weight: 700;
     font-size: 45px;
+
 
 
 
@@ -173,4 +185,92 @@ body {
     font-size: 16px;
     position: relative;
     bottom: 10px;
+}
+
+
+
+.experience-year {
+    font-size: 2rem;
+
+
+}
+
+
+
+/* some fact style  */
+
+.some-fact {
+    width: 450px;
+    position: relative;
+    left: 240px;
+    margin-top: 100px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+
+.fact-detail {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+/* --------------------------
+work-with-experience-container
+------------------------------ */
+
+.work-with-experience-container{
+    width: 90%;
+    margin: auto;
+}
+.work-with-experience{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work {
+    border: 1px solid var(--golden-color);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.work img {
+    width: 45.22px;
+    height: 45.22px;
+}
+
+
+.work h1 {
+    height: fit-content;
+    position: relative;
+    bottom: 20px;
+}
+
+.work-count {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.work-info {
+    color: #727272;
+    font-weight: 600;
+    font-size: 11px;
+    position: relative;
+    bottom: 70px;
+
 }
