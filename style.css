@@ -99,6 +99,7 @@ body {
     border: none;
     position: relative;
     left: 45%;
+    cursor: pointer;
 
 }
 
@@ -204,6 +205,7 @@ body {
     position: relative;
     left: 240px;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .fact-title {
@@ -228,23 +230,26 @@ body {
 work-with-experience-container
 ------------------------------ */
 
-.work-with-experience-container{
+.work-with-experience-container {
     width: 90%;
     margin: auto;
 }
-.work-with-experience{
+
+.work-with-experience {
     display: flex;
     justify-content: space-evenly;
 }
 
 .work {
     border: 1px solid var(--golden-color);
-    width: 100px;
-    height: 100px;
+    border-radius: 7px;
+    width: 200px;
+    height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
+
 
 }
 
@@ -269,8 +274,81 @@ work-with-experience-container
 .work-info {
     color: #727272;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 16px;
     position: relative;
-    bottom: 70px;
+    bottom: 60px;
 
+}
+
+
+
+/*---------------------------
+ sponsor style
+ ----------------------------  */
+
+.sponsor-info {
+    margin-top: 100px;
+
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin: auto;
+    width: fit-content;
+
+}
+
+
+.sponsor-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    margin: auto;
+    margin-top: 16px;
+
+}
+
+.our-sponsor-container {
+    margin-top: 50px;
+
+
+}
+
+
+.sponsor-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.sponsor img {
+    cursor: pointer;
+}
+
+.telegram {
+    position: relative;
+    right: 80px;
+}
+
+
+
+/* -----------
+footer
+--------------- */
+
+
+
+.footer {
+    margin-top: 130px;
+    height: 100px;
+    background-color: #FFF4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
 }
